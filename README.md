@@ -87,7 +87,9 @@ uvicorn src.api.main:app --host 0.0.0.0 --port 8000
 ```
 
 ## API 使用说明
-
+API 文档将自动生成在：
+Swagger UI: http://localhost:8000/docs
+ReDoc: http://localhost:8000/redoc
 ### 1. 分析开发者
 ```bash
 GET /api/v1/developers/{username}
